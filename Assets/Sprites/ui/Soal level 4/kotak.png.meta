@@ -1,0 +1,1589 @@
+fileFormatVersion: 2
+guid: 66881e0b87fc0df439f144b2690b6a3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6104855453392340519
+    second: kotak_0
+  - first:
+      213: -8015092325930783681
+    second: kotak_1
+  - first:
+      213: 7636456973586721335
+    second: kotak_2
+  - first:
+      213: -8199337980582136907
+    second: kotak_3
+  - first:
+      213: -1350908472624131735
+    second: kotak_4
+  - first:
+      213: -1882583962503444616
+    second: kotak_5
+  - first:
+      213: -8759569483410972510
+    second: kotak_6
+  - first:
+      213: -5185048541265454184
+    second: kotak_7
+  - first:
+      213: -500926432970123553
+    second: kotak_8
+  - first:
+      213: -7081836709830791868
+    second: kotak_9
+  - first:
+      213: -7829987234677093572
+    second: kotak_10
+  - first:
+      213: 6158017489200070498
+    second: kotak_11
+  - first:
+      213: -8798143498330191306
+    second: kotak_12
+  - first:
+      213: -4768453015691061808
+    second: kotak_13
+  - first:
+      213: -7784351627224319043
+    second: kotak_14
+  - first:
+      213: -7247367442477349543
+    second: kotak_15
+  - first:
+      213: -1768727710910132329
+    second: kotak_16
+  - first:
+      213: -7411507878011102351
+    second: kotak_17
+  - first:
+      213: -1716837522530316230
+    second: kotak_18
+  - first:
+      213: -2057370141882359847
+    second: kotak_19
+  - first:
+      213: -7616671301791155070
+    second: kotak_20
+  - first:
+      213: -8968404961740094760
+    second: kotak_21
+  - first:
+      213: -6287697890142131280
+    second: kotak_22
+  - first:
+      213: 1851970222178938984
+    second: kotak_23
+  - first:
+      213: 8594815621140336942
+    second: kotak_24
+  - first:
+      213: -4900067810939380630
+    second: kotak_25
+  - first:
+      213: -5270058470977466604
+    second: kotak_26
+  - first:
+      213: 6267688423910416898
+    second: kotak_27
+  - first:
+      213: -373499018473835767
+    second: kotak_28
+  - first:
+      213: 4518789593730881827
+    second: kotak_29
+  - first:
+      213: 8007791484360482772
+    second: kotak_30
+  - first:
+      213: 1063235354991416065
+    second: kotak_31
+  - first:
+      213: -2438829304740092531
+    second: kotak_32
+  - first:
+      213: 4000550630944515763
+    second: kotak_33
+  - first:
+      213: -1082683290068530048
+    second: kotak_34
+  - first:
+      213: -8692784199401871174
+    second: kotak_35
+  - first:
+      213: -5088063151162955442
+    second: kotak_36
+  - first:
+      213: -7355286407182663935
+    second: kotak_37
+  - first:
+      213: -4957579815595033012
+    second: kotak_38
+  - first:
+      213: 3536547775084412058
+    second: kotak_39
+  - first:
+      213: 6994692885640034579
+    second: kotak_40
+  - first:
+      213: -5137543656911339363
+    second: kotak_41
+  - first:
+      213: 1879020601459966395
+    second: kotak_42
+  - first:
+      213: 6643005068564294535
+    second: kotak_43
+  - first:
+      213: 8695350435170146137
+    second: kotak_44
+  - first:
+      213: 8247413280038334514
+    second: kotak_45
+  - first:
+      213: 8553342404259022624
+    second: kotak_46
+  - first:
+      213: -313814440206928514
+    second: kotak_47
+  - first:
+      213: -1375911494272445556
+    second: kotak_48
+  - first:
+      213: -4147544972495746712
+    second: kotak_49
+  - first:
+      213: -504390935526978083
+    second: kotak_50
+  - first:
+      213: -7918595967577700189
+    second: kotak_51
+  - first:
+      213: -7871790462364507556
+    second: kotak_52
+  - first:
+      213: -3772563324755504261
+    second: kotak_53
+  - first:
+      213: 2921575356295680567
+    second: kotak_54
+  - first:
+      213: 8086921278769832864
+    second: kotak_55
+  - first:
+      213: -6575380601431981969
+    second: kotak_56
+  - first:
+      213: 4426123386219221545
+    second: kotak_57
+  - first:
+      213: 4672839646157711522
+    second: kotak_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kotak_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9717f5f42374ba0800000000000000
+      internalID: -6104855453392340519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cafeecefba4c090800000000000000
+      internalID: -8015092325930783681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ae03568252af960800000000000000
+      internalID: 7636456973586721335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b378027c89163e80800000000000000
+      internalID: -8199337980582136907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9615c2dc6eb904de0800000000000000
+      internalID: -1350908472624131735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87782274cd7bfd5e0800000000000000
+      internalID: -1882583962503444616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0efeb07f1cf6680800000000000000
+      internalID: -8759569483410972510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b17b2c2d10b08b0800000000000000
+      internalID: -5185048541265454184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd65630301a5c09f0800000000000000
+      internalID: -500926432970123553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44de639980348bd90800000000000000
+      internalID: -7081836709830791868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b8a39581c465390800000000000000
+      internalID: -7829987234677093572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fb964a74ca57550800000000000000
+      internalID: 6158017489200070498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63acd135a17b6e580800000000000000
+      internalID: -8798143498330191306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_13
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5189f1f3d03ddb0800000000000000
+      internalID: -4768453015691061808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_14
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 332
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb7f84307d68f390800000000000000
+      internalID: -7784351627224319043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_15
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 332
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955086295bd2c6b90800000000000000
+      internalID: -7247367442477349543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fcfce94873477e0800000000000000
+      internalID: -1768727710910132329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 298
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b93215ad8052990800000000000000
+      internalID: -7411507878011102351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30d4849e519c28e0800000000000000
+      internalID: -1716837522530316230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_19
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 264
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df5b91a1c0c273e0800000000000000
+      internalID: -2057370141882359847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c73dd4ec52c4690800000000000000
+      internalID: -7616671301791155070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_21
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 230
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d281a53433d98380800000000000000
+      internalID: -8968404961740094760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbea13251c9db8a0800000000000000
+      internalID: -6287697890142131280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_23
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 195
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860b39bda1583b910800000000000000
+      internalID: 1851970222178938984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e215c08254be64770800000000000000
+      internalID: 8594815621140336942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_25
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 161
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cd1a1a9467ffbb0800000000000000
+      internalID: -4900067810939380630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f89db1ebdfcd6b0800000000000000
+      internalID: -5270058470977466604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_27
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 127
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2022206f96d4bf650800000000000000
+      internalID: 6267688423910416898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903f8ef1f9011daf0800000000000000
+      internalID: -373499018473835767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_29
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 93
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3299f05a137f5be30800000000000000
+      internalID: 4518789593730881827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df54bc8de3612f60800000000000000
+      internalID: 8007791484360482772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 49
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10356ee0cee51ce00800000000000000
+      internalID: 1063235354991416065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_32
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8567273ba9872ed0800000000000000
+      internalID: -2438829304740092531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_33
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6a96f5a9fc48730800000000000000
+      internalID: 4000550630944515763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_34
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 49
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cc633b84989f0f0800000000000000
+      internalID: -1082683290068530048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_35
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8e585b3d60d5780800000000000000
+      internalID: -8692784199401871174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_36
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 49
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e496d2095819369b0800000000000000
+      internalID: -5088063151162955442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_37
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f3e9e8bf5cce990800000000000000
+      internalID: -7355286407182663935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_38
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 49
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ebfc19c63233bb0800000000000000
+      internalID: -4957579815595033012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_39
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 49
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cba19c677541130800000000000000
+      internalID: 3536547775084412058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_40
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 59
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319b689be14221160800000000000000
+      internalID: 6994692885640034579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d900dbf8347c3b8b0800000000000000
+      internalID: -5137543656911339363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_42
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 25
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb189a3184f931a10800000000000000
+      internalID: 1879020601459966395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78be4e8e9e1b03c50800000000000000
+      internalID: 6643005068564294535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_44
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957dadd96271ca870800000000000000
+      internalID: 8695350435170146137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_45
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23036887ea2b47270800000000000000
+      internalID: 8247413280038334514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_46
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0270520699393b670800000000000000
+      internalID: 8553342404259022624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_47
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75f316ed6b15abf0800000000000000
+      internalID: -313814440206928514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_48
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83938d29c7c7ece0800000000000000
+      internalID: -1375911494272445556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_49
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8690f6872d5f076c0800000000000000
+      internalID: -4147544972495746712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_50
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddccf3dd1b0009f0800000000000000
+      internalID: -504390935526978083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_51
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8c0b80cee7b1290800000000000000
+      internalID: -7918595967577700189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_52
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52a470f748c1c290800000000000000
+      internalID: -7871790462364507556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_53
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73184fd4a925abc0800000000000000
+      internalID: -3772563324755504261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_54
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7321a80be458b8820800000000000000
+      internalID: 2921575356295680567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3af938e048a3070800000000000000
+      internalID: 8086921278769832864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_56
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6007ac4e2e8fb4a0800000000000000
+      internalID: -6575380601431981969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_57
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92255a7e4cfbc6d30800000000000000
+      internalID: 4426123386219221545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kotak_58
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 0
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8a79186e249d040800000000000000
+      internalID: 4672839646157711522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kotak_0: -6104855453392340519
+      kotak_1: -8015092325930783681
+      kotak_10: -7829987234677093572
+      kotak_11: 6158017489200070498
+      kotak_12: -8798143498330191306
+      kotak_13: -4768453015691061808
+      kotak_14: -7784351627224319043
+      kotak_15: -7247367442477349543
+      kotak_16: -1768727710910132329
+      kotak_17: -7411507878011102351
+      kotak_18: -1716837522530316230
+      kotak_19: -2057370141882359847
+      kotak_2: 7636456973586721335
+      kotak_20: -7616671301791155070
+      kotak_21: -8968404961740094760
+      kotak_22: -6287697890142131280
+      kotak_23: 1851970222178938984
+      kotak_24: 8594815621140336942
+      kotak_25: -4900067810939380630
+      kotak_26: -5270058470977466604
+      kotak_27: 6267688423910416898
+      kotak_28: -373499018473835767
+      kotak_29: 4518789593730881827
+      kotak_3: -8199337980582136907
+      kotak_30: 8007791484360482772
+      kotak_31: 1063235354991416065
+      kotak_32: -2438829304740092531
+      kotak_33: 4000550630944515763
+      kotak_34: -1082683290068530048
+      kotak_35: -8692784199401871174
+      kotak_36: -5088063151162955442
+      kotak_37: -7355286407182663935
+      kotak_38: -4957579815595033012
+      kotak_39: 3536547775084412058
+      kotak_4: -1350908472624131735
+      kotak_40: 6994692885640034579
+      kotak_41: -5137543656911339363
+      kotak_42: 1879020601459966395
+      kotak_43: 6643005068564294535
+      kotak_44: 8695350435170146137
+      kotak_45: 8247413280038334514
+      kotak_46: 8553342404259022624
+      kotak_47: -313814440206928514
+      kotak_48: -1375911494272445556
+      kotak_49: -4147544972495746712
+      kotak_5: -1882583962503444616
+      kotak_50: -504390935526978083
+      kotak_51: -7918595967577700189
+      kotak_52: -7871790462364507556
+      kotak_53: -3772563324755504261
+      kotak_54: 2921575356295680567
+      kotak_55: 8086921278769832864
+      kotak_56: -6575380601431981969
+      kotak_57: 4426123386219221545
+      kotak_58: 4672839646157711522
+      kotak_6: -8759569483410972510
+      kotak_7: -5185048541265454184
+      kotak_8: -500926432970123553
+      kotak_9: -7081836709830791868
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
