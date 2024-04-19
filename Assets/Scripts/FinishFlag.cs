@@ -72,11 +72,12 @@ public class FinishFlag : MonoBehaviour, IDataPersistence
     {
         if (fuzzyLogic.hasilAkhir > 4.0f && fuzzyLogic.hasilAkhir <= 5.0f)
         {
-            for (int i = 0; i < star.Count; i++)
-            {
-                star[i].SetActive(true);
-                textWinLose.text = "KAMU MENANG";
-            }
+            textWinLose.text = "KAMU MENANG";
+            star[0].SetActive(true);
+            star[1].SetActive(true);
+            star[2].SetActive(true);
+            star[3].SetActive(true);
+            star[4].SetActive(true);
 
             for (int j = 0; j < reward.Count; j++)
             {
@@ -87,11 +88,12 @@ public class FinishFlag : MonoBehaviour, IDataPersistence
         }
         else if (fuzzyLogic.hasilAkhir > 3.0f && fuzzyLogic.hasilAkhir <= 4.0f)
         {
-            for (int i = 0; i < star.Count - 1; i++)
-            {
-                star[i].SetActive(true);
-                textWinLose.text = "KAMU KALAH";
-            }
+            textWinLose.text = "KAMU KALAH";
+            star[0].SetActive(true);
+            star[1].SetActive(true);
+            star[2].SetActive(true);
+            star[3].SetActive(true);
+            star[4].SetActive(false);
 
             for (int j = 0; j < reward.Count; j++)
             {
@@ -101,11 +103,12 @@ public class FinishFlag : MonoBehaviour, IDataPersistence
         }
         else if (fuzzyLogic.hasilAkhir > 2.0f && fuzzyLogic.hasilAkhir <= 3.0f)
         {
-            for (int i = 0; i < star.Count - 2; i++)
-            {
-                star[i].SetActive(true);
-                textWinLose.text = "KAMU KALAH";
-            }
+            textWinLose.text = "KAMU KALAH";
+            star[0].SetActive(true);
+            star[1].SetActive(true);
+            star[2].SetActive(true);
+            star[3].SetActive(false);
+            star[4].SetActive(false);
 
             for (int j = 0; j < reward.Count; j++)
             {
@@ -115,11 +118,12 @@ public class FinishFlag : MonoBehaviour, IDataPersistence
         }
         else if (fuzzyLogic.hasilAkhir > 1.0f && fuzzyLogic.hasilAkhir <= 2.0f)
         {
-            for (int i = 0; i < star.Count - 3; i++)
-            {
-                star[i].SetActive(true);
-                textWinLose.text = "KAMU KALAH";
-            }
+            textWinLose.text = "KAMU KALAH";
+            star[0].SetActive(true);
+            star[1].SetActive(true);
+            star[2].SetActive(false);
+            star[3].SetActive(false);
+            star[4].SetActive(false);
 
             for (int j = 0; j < reward.Count; j++)
             {
@@ -129,8 +133,12 @@ public class FinishFlag : MonoBehaviour, IDataPersistence
         }
         else if (fuzzyLogic.hasilAkhir > 0.0f && fuzzyLogic.hasilAkhir <= 1.0f)
         {
-            star[0].SetActive(true);
             textWinLose.text = "KAMU KALAH";
+            star[0].SetActive(true);
+            star[1].SetActive(false);
+            star[2].SetActive(false);
+            star[3].SetActive(false);
+            star[4].SetActive(false);
 
             for (int j = 0; j < reward.Count; j++)
             {

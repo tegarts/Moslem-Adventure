@@ -68,7 +68,7 @@ public class FuzzyLogic : MonoBehaviour
         2, 2, 2, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4,
         2, 2, 2, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 3,
         3, 3, 3, 3, 4, 2, 2, 2, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 3,
-        2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3,
+        2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 2, 2, 2, 2, 3, 2, 2, 2, 2, 3,
         2, 2, 2, 2, 3, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 2, 2, 2, 2, 3,
         2, 2, 2, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 3, 4, 3, 3, 3, 4, 5,
         3, 3, 3, 4, 4, 3, 3, 3, 4, 4, 3, 3, 3, 4, 4, 3, 3, 3, 5, 5,
@@ -78,6 +78,7 @@ public class FuzzyLogic : MonoBehaviour
 
     private void Update()
     {
+        // Matiin ini kalo mau ubah2 tanpa main game
         jumlahKoin = playerStat.coinValue;
         jumlahNyawa = playerStat.currentHealth;
         jumlahWaktu = timestamp.minute;
