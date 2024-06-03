@@ -21,10 +21,18 @@ public class PlayerStat : MonoBehaviour, IDataPersistence
     [Header("Coin")]
     public int coinValue;
 
+    [Header("Score")]
+    public int playerScore;
+    public int playerAnswered;
+    [Header("Bantuan")]
+    public int playerBantuan;
+    public int helpAdded;
+
     public void LoadData(GameData data)
     {
         selectedChar = data.characterSelected;
-        healthAdded = data.healthAdded;
+        // healthAdded = data.healthAdded;
+        helpAdded = data.helpAdded;
     }
 
     public void SaveData(ref GameData data)
@@ -34,20 +42,23 @@ public class PlayerStat : MonoBehaviour, IDataPersistence
 
     private void Start()
     {
-        if(selectedChar == 0)
-        {
-            initialHealth = 15;
-        }
-        else if(selectedChar == 1)
-        {
-            initialHealth = 20;
-        }
-        else
-        {
-            initialHealth = 25;
-        }
+        playerBantuan += helpAdded;
+        initialHealth = 100;
+        currentHealth = initialHealth;
+        // if(selectedChar == 0)
+        // {
+        //     initialHealth = 15;
+        // }
+        // else if(selectedChar == 1)
+        // {
+        //     initialHealth = 20;
+        // }
+        // else
+        // {
+        //     initialHealth = 25;
+        // }
 
-        currentHealth = initialHealth + healthAdded;
+        // currentHealth = initialHealth + healthAdded;
         sRenderer = GetComponentInChildren<SpriteRenderer>();
         anim = GetComponent<Animator>();
         anim.runtimeAnimatorController = controller[selectedChar];
@@ -61,7 +72,7 @@ public class PlayerStat : MonoBehaviour, IDataPersistence
             isDamaged = true;
             
         }
-        
+    
         if(currentHealth > 0)
         {
             AudioManager.instance.PlaySFX("hurt");

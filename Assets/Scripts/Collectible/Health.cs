@@ -17,7 +17,11 @@ public class Health : MonoBehaviour
         {
             if (!_isCollected)
             {
-                _stat.currentHealth++;
+                _stat.currentHealth += 10;
+                if(_stat.currentHealth > 100)
+                {
+                    _stat.currentHealth = 100;
+                }
                 _isCollected = true;
                 AudioManager.instance.PlaySFX("health");
                 Destroy(gameObject);

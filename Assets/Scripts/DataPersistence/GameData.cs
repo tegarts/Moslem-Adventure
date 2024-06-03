@@ -12,6 +12,8 @@ public class GameData
     public int levelUnlocked;
     public int healthAdded;
     public int bulletAdded;
+    public int helpAdded;
+    public int enemyAdded;
     public GameData()
     {
         this.characterSelected = 0;
@@ -23,5 +25,7 @@ public class GameData
         this.levelUnlocked = 0;
         this.healthAdded = 0;
         this.bulletAdded = 0;
+        this.helpAdded = 0;
+        this.enemyAdded = 0;
     }
 }

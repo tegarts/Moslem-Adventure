@@ -5,9 +5,11 @@ using UnityEngine;
 public class HealthEnemy : MonoBehaviour
 {
     [SerializeField] private int damage;
+    private EnemyManager enemyManager;
 
     [Header("Enemy Health")]
     public int enemyHealth;
+    public bool isDead;
     //private SpriteRenderer spriteRend;
     //[SerializeField] private float iFramesDuration;
     //[SerializeField] private int numberOfFlashes;
@@ -17,6 +19,8 @@ public class HealthEnemy : MonoBehaviour
 
     private void Start()
     {
+        enemyManager = FindObjectOfType<EnemyManager>();
+        enemyManager.enemyCount++;
         //spriteRend = GetComponent<SpriteRenderer>();
     }
 
@@ -32,7 +36,13 @@ public class HealthEnemy : MonoBehaviour
         else if (enemyHealth <= 0)
         {
             enemyHealth = 0;
-            StartCoroutine(Dying());
+            if (!isDead)
+            {
+                 isDead = true;
+                StartCoroutine(Dying());
+            }
+
+            
         }
     }
 
@@ -60,6 +70,7 @@ public class HealthEnemy : MonoBehaviour
     {
         anim.SetTrigger("dead");
         yield return new WaitForSeconds(0.5f);
+        enemyManager.enemyCount--;
         Destroy(parent);
     }
 }

@@ -13,10 +13,10 @@ public class FinishFlag : MonoBehaviour, IDataPersistence
     public GameObject panelFinish;
     public int currentLevel;
     private int coinReward;
-    private int healthReward;
+    // private int healthReward;
+    private int helpReward;
     private int bulletReward;
-
-    public TMP_Text mainLagiButton;
+    private int enemyReward;
 
     [Header("Bintang & Reward")]
     public List<GameObject> reward = new();
@@ -34,8 +34,9 @@ public class FinishFlag : MonoBehaviour, IDataPersistence
     {
         data.coin += coinReward;
         data.levelUnlocked = levelUnlocked;
-        data.healthAdded = healthReward;
+        data.helpAdded = helpReward;
         data.bulletAdded = bulletReward;
+        data.enemyAdded = enemyReward;
     }
 
     private void Start()
@@ -161,7 +162,8 @@ public class FinishFlag : MonoBehaviour, IDataPersistence
             {
                 coinReward = 80;
                 bulletReward = 50;
-                healthReward = 5;
+                helpReward = 2;
+                enemyReward = 10;
 
                 if (currentLevel == 1)
                 {
@@ -200,19 +202,23 @@ public class FinishFlag : MonoBehaviour, IDataPersistence
             else if (fuzzyLogic.hasilAkhir >= 4)
             {
                 coinReward = 50;
-                healthReward = 3;
+                helpReward = 1;
+                enemyReward = 8;
             }
             else if (fuzzyLogic.hasilAkhir >= 3)
             {
                 coinReward = 50;
+                enemyReward = 6;
             }
             else if (fuzzyLogic.hasilAkhir >= 2)
             {
                 bulletReward = 25;
+                enemyReward = 4;
             }
-            else if (fuzzyLogic.hasilAkhir <= 1)
+            else if (fuzzyLogic.hasilAkhir > 0)
             {
-                healthReward = 3;
+                helpReward = 1;
+                enemyReward = 2;
             }
         }
     }

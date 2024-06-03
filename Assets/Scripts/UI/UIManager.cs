@@ -3,23 +3,29 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     public TMP_Text timerUI;
     public TMP_Text playerHealthUI;
+    public Slider playerHealthSlider;
     public TMP_Text coinUI;
     public TMP_Text bulletUI;
     public TMP_Text keyUI;
+    public TMP_Text enemyCount;
+    public TMP_Text playerScoreUI;
+    public TMP_Text playerAnsweredUI;
+    public TMP_Text playerBantuanUI;
 
     private PlayerStat playerStat;
     private PlayerAttack playerAttack;
-    private DoorQuiz doorQuiz;
     private Timestamp timestamp;
 
     public GameObject pauseMenu;
     public GameObject gameOverPanel;
     private FuzzyLogic fuzzyLogic;
+    private EnemyManager enemyManager;
 
     public TMP_Text mainLagiButton;
 
@@ -28,8 +34,8 @@ public class UIManager : MonoBehaviour
     {
         playerStat = FindAnyObjectByType<PlayerStat>();
         playerAttack = FindAnyObjectByType<PlayerAttack>();
-        doorQuiz = FindAnyObjectByType<DoorQuiz>();
         timestamp = FindAnyObjectByType<Timestamp>();
+        enemyManager = FindAnyObjectByType<EnemyManager>();
         pauseMenu.SetActive(false);
         gameOverPanel.SetActive(false);
         fuzzyLogic = FindAnyObjectByType<FuzzyLogic>();
@@ -40,15 +46,20 @@ public class UIManager : MonoBehaviour
 
     private void Update()
     {
-        playerHealthUI.text = playerStat.currentHealth.ToString();
+        playerHealthUI.text = playerStat.currentHealth + "/100";
+        playerHealthSlider.value = playerStat.currentHealth;
         coinUI.text = playerStat.coinValue + "/50";
+        playerScoreUI.text = playerStat.playerScore.ToString();
+        playerAnsweredUI.text = playerStat.playerAnswered + "/20";
+        playerBantuanUI.text = playerStat.playerBantuan.ToString();
+        enemyCount.text = enemyManager.enemyCount.ToString();
         if(playerAttack.bulletCount > 0)
         {
             bulletUI.text = playerAttack.bulletCount.ToString();
         }
         else
         {
-            bulletUI.text = "Peluru Habis";
+            bulletUI.text = "-";
         }
         
 
@@ -60,7 +71,7 @@ public class UIManager : MonoBehaviour
             playerStat.isDead = false;
         }
 
-        if(doorQuiz.isDone)
+        if(playerStat.playerAnswered == 20)
         {
             keyUI.text = "1/1";
         }
@@ -73,7 +84,7 @@ public class UIManager : MonoBehaviour
     {
         sisaNyawa.text = playerStat.currentHealth.ToString();
         koinDikumpulkan.text = playerStat.coinValue.ToString();
-        skorQuiz.text = doorQuiz.skor.ToString();
+        skorQuiz.text = playerStat.playerScore.ToString();
         waktuAkhir.text = timestamp.minute + " : " + timestamp.second;
     }
 

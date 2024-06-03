@@ -25,7 +25,8 @@ public class UIMainMenuManager : MonoBehaviour, IDataPersistence
     public List<GameObject> listPowerup;
     public TMP_Text bulletBonus;
     public TMP_Text healthBonus;
-    public int HealthAdded, BulletAdded;
+    public int HealthAdded, BulletAdded, helpAdded, enemyAdded;
+    public TMP_Text enemyBonus;
 
     [Header("Toko")]
     public List<Button> buttons = new();
@@ -58,8 +59,10 @@ public class UIMainMenuManager : MonoBehaviour, IDataPersistence
         coin = data.coin;
         levelOpen = data.levelUnlocked;
 
-        HealthAdded = data.healthAdded;
+        // HealthAdded = data.healthAdded;
+        helpAdded = data.helpAdded;
         BulletAdded = data.bulletAdded;
+        enemyAdded = data.enemyAdded;
 
     }
 
@@ -110,6 +113,15 @@ public class UIMainMenuManager : MonoBehaviour, IDataPersistence
         else
         {
             Debug.Log("Load Game");
+        }
+
+        if(enemyAdded > 0)
+        {
+            enemyBonus.text = (10 + enemyAdded).ToString();
+        }
+        else
+        {
+            enemyBonus.text = "15";
         }
     }
 
@@ -269,10 +281,10 @@ public class UIMainMenuManager : MonoBehaviour, IDataPersistence
 
     private void CalculateBonus()
     {
-        if(HealthAdded > 0)
+        if(helpAdded > 0)
         {
             listPowerup[0].SetActive(true);
-            healthBonus.text = "+" + HealthAdded;
+            healthBonus.text = "+" + helpAdded;
         }
 
         if(BulletAdded > 0)
@@ -281,10 +293,12 @@ public class UIMainMenuManager : MonoBehaviour, IDataPersistence
             bulletBonus.text = "+" + BulletAdded;
         }
 
-        if(HealthAdded == 0 && BulletAdded == 0)
+        if(helpAdded == 0 && BulletAdded == 0)
         {
             listPowerup[2].SetActive(true);
         }
+
+        
     }
 
     #endregion

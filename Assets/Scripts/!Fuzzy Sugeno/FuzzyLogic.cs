@@ -6,7 +6,6 @@ public class FuzzyLogic : MonoBehaviour
     [Header("Pemanggilan class lain")]
     private PlayerStat playerStat;
     private Timestamp timestamp;
-    private DoorQuiz doorQuiz;
 
     [Header("Value Variabel")]
     public int jumlahKoin;
@@ -38,7 +37,6 @@ public class FuzzyLogic : MonoBehaviour
     {
         playerStat = FindAnyObjectByType<PlayerStat>();
         timestamp = FindAnyObjectByType<Timestamp>();
-        doorQuiz = FindAnyObjectByType<DoorQuiz>();
 
         nilaiOutput = new int[] {
         1, 1, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1, 2,
@@ -79,10 +77,10 @@ public class FuzzyLogic : MonoBehaviour
     private void Update()
     {
         // Matiin ini kalo mau ubah2 tanpa main game
-        jumlahKoin = playerStat.coinValue;
-        jumlahNyawa = playerStat.currentHealth;
-        jumlahWaktu = timestamp.minute;
-        jumlahSkor = doorQuiz.skor;
+        // jumlahKoin = playerStat.coinValue;
+        // jumlahNyawa = playerStat.currentHealth;
+        // jumlahWaktu = timestamp.minute;
+        // jumlahSkor = playerStat.playerScore;
 
         KeanggotaanJumlahKoin();
         KeanggotaanJumlahNyawa();
@@ -206,13 +204,13 @@ public class FuzzyLogic : MonoBehaviour
 
     private void NyawaSangatBanyak()
     {
-        if (jumlahNyawa >= 25)
+        if (jumlahNyawa >= 100)
         {
             variabelJumlahNyawa[4] = 1;
         }
-        else if (jumlahNyawa > 19 && jumlahNyawa < 25)
+        else if (jumlahNyawa > 85 && jumlahNyawa < 100)
         {
-            variabelJumlahNyawa[4] = (float)(jumlahNyawa - 19) / (25 - 19);
+            variabelJumlahNyawa[4] = (float)(jumlahNyawa - 85) / (100 - 85);
         }
         else
         {
@@ -222,13 +220,13 @@ public class FuzzyLogic : MonoBehaviour
 
     private void NyawaBanyak()
     {
-        if (jumlahNyawa > 17 && jumlahNyawa < 20)
+        if (jumlahNyawa > 80 && jumlahNyawa < 90)
         {
-            variabelJumlahNyawa[3] = (float)(20 - jumlahNyawa) / (20 - 17);
+            variabelJumlahNyawa[3] = (float)(90 - jumlahNyawa) / (90 - 80);
         }
-        else if (jumlahNyawa > 14 && jumlahNyawa <= 17)
+        else if (jumlahNyawa > 70 && jumlahNyawa <= 80)
         {
-            variabelJumlahNyawa[3] = (float)(jumlahNyawa - 14) / (17 - 14);
+            variabelJumlahNyawa[3] = (float)(jumlahNyawa - 70) / (80 - 70);
         }
         else
         {
@@ -238,13 +236,13 @@ public class FuzzyLogic : MonoBehaviour
 
     private void NyawaSedang()
     {
-        if (jumlahNyawa > 12 && jumlahNyawa < 15)
+        if (jumlahNyawa > 60 && jumlahNyawa < 75)
         {
-            variabelJumlahNyawa[2] = (float)(15 - jumlahNyawa) / (15 - 12);
+            variabelJumlahNyawa[2] = (float)(75 - jumlahNyawa) / (75 - 60);
         }
-        else if (jumlahNyawa > 9 && jumlahNyawa <= 12)
+        else if (jumlahNyawa > 45 && jumlahNyawa <= 60)
         {
-            variabelJumlahNyawa[2] = (float)(jumlahNyawa - 9) / (12 - 9);
+            variabelJumlahNyawa[2] = (float)(jumlahNyawa - 45) / (60 - 45);
         }
         else
         {
@@ -254,13 +252,13 @@ public class FuzzyLogic : MonoBehaviour
 
     private void NyawaSedikit()
     {
-        if (jumlahNyawa > 7 && jumlahNyawa < 10)
+        if (jumlahNyawa > 37.5f && jumlahNyawa < 50)
         {
-            variabelJumlahNyawa[1] = (float)(10 - jumlahNyawa) / (10 - 7);
+            variabelJumlahNyawa[1] = (float)(50 - jumlahNyawa) / (50 - 37.5f);
         }
-        else if (jumlahNyawa > 4 && jumlahNyawa <= 7)
+        else if (jumlahNyawa > 25 && jumlahNyawa <= 37.5f)
         {
-            variabelJumlahNyawa[1] = (float)(jumlahNyawa - 4) / (7 - 4);
+            variabelJumlahNyawa[1] = (float)(jumlahNyawa - 25) / (37.5f - 25);
         }
         else
         {
@@ -270,13 +268,13 @@ public class FuzzyLogic : MonoBehaviour
 
     private void NyawaSangatSedikit()
     {
-        if (jumlahNyawa >= 5)
+        if (jumlahNyawa >= 30)
         {
             variabelJumlahNyawa[0] = 0;
         }
-        else if (jumlahNyawa > 0 && jumlahNyawa < 5)
+        else if (jumlahNyawa > 0 && jumlahNyawa < 30)
         {
-            variabelJumlahNyawa[0] = (float)(5 - jumlahNyawa) / (5 - 0);
+            variabelJumlahNyawa[0] = (float)(30 - jumlahNyawa) / (30 - 0);
         }
         else
         {
